@@ -8,4 +8,5 @@ public class Book {
         this.bookPrice = bookPrice;
         this.releaseData = releaseData;
     }
+
 }
