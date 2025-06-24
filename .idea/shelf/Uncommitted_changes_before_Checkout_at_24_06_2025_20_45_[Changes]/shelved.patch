@@ -1,0 +1,33 @@
+Index: src/BookStore.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.HashSet;\r\n\r\npublic class BookStore {\r\n    HashSet<Book> listOfBooks = new HashSet<>();\r\n\r\n    public void addBook(Book book) {\r\n        listOfBooks.add(book);\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/BookStore.java b/src/BookStore.java
+--- a/src/BookStore.java	(revision 6960b243640a9376680276d469b64e531b092d54)
++++ b/src/BookStore.java	(date 1750786428050)
+@@ -8,4 +8,6 @@
+     }
+ 
+ 
++
++
+ }
+Index: src/BookStoreManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class BookStoreManager {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/BookStoreManager.java b/src/BookStoreManager.java
+--- a/src/BookStoreManager.java	(revision 6960b243640a9376680276d469b64e531b092d54)
++++ b/src/BookStoreManager.java	(date 1750786640115)
+@@ -1,5 +1,7 @@
+ public class BookStoreManager {
+     public static void main(String[] args) {
++        BookStore books = new BookStore();
++
+ 
+     }
+ }
