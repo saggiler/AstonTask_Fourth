@@ -1,0 +1,57 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"91fc78c8-c5ad-4093-a7d0-194ab1e5df93\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"bookstore\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"main\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2f588081a2626a8f8d854ea2e13b5ca6d2526d6e)
++++ b/.idea/workspace.xml	(date 1750794278738)
+@@ -1,7 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="91fc78c8-c5ad-4093-a7d0-194ab1e5df93" name="Changes" comment="" />
++    <list default="true" id="91fc78c8-c5ad-4093-a7d0-194ab1e5df93" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -15,9 +20,14 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "git-widget-placeholder": "main"
++    "git-widget-placeholder": "main",
++    "onboarding.tips.debug.path": "C:/Users/Jck/IdeaProjects/Requiem/src/Main.java",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2"
+   }
+ }]]></component>
+   <component name="TaskManager">
+@@ -34,4 +44,15 @@
+       </map>
+     </option>
+   </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Main.java</url>
++          <line>11</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file

@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"91fc78c8-c5ad-4093-a7d0-194ab1e5df93\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"bookstore\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"main\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2f588081a2626a8f8d854ea2e13b5ca6d2526d6e)
++++ b/.idea/workspace.xml	(date 1750791899467)
+@@ -1,7 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="91fc78c8-c5ad-4093-a7d0-194ab1e5df93" name="Changes" comment="" />
++    <list default="true" id="91fc78c8-c5ad-4093-a7d0-194ab1e5df93" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -15,12 +20,30 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="ProjectColorInfo"><![CDATA[{
++  "associatedIndex": 2
++}]]></component>
++  <component name="ProjectId" id="2yxzH6eCqbemD4uL28dWUceYSPa" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "git-widget-placeholder": "main"
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "main",
++    "kotlin-language-version-configured": "true"
+   }
+ }]]></component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="91fc78c8-c5ad-4093-a7d0-194ab1e5df93" name="Changes" comment="" />
++      <created>1750790926673</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1750790926673</updated>
++    </task>
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
