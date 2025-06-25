@@ -2,13 +2,31 @@ import java.util.Objects;
 
 public class Book {
     private String bookTitle;
+    private String bookAuthor;
     private int bookPrice;
     private int releaseData;
 
-    public Book(String bookTitle, int bookPrice, int releaseData) {
+    public Book(String bookTitle, String bookAuthor, int bookPrice, int releaseData) {
         this.bookTitle = bookTitle;
+        this.bookAuthor = bookAuthor;
         this.bookPrice = bookPrice;
         this.releaseData = releaseData;
+    }
+
+    public String getBookTitle() {
+        return bookTitle;
+    }
+
+    public String getBookAuthor() {
+        return bookAuthor;
+    }
+
+    public int getBookPrice() {
+        return bookPrice;
+    }
+
+    public int getReleaseData() {
+        return releaseData;
     }
 
     @Override
