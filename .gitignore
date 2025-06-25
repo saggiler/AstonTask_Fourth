@@ -1,0 +1,44 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Файлы сборки
+/out/
+/target/
+/build/
+
+# Кэш и временные файлы
+*.class
+*.swp
+*.tmp
+
+# Рабочие настройки, которые не нужны в репозитории
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Персональные настройки
+*.shelf/
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# VSCode (на всякий случай)
+.vscode/
