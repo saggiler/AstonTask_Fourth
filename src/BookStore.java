@@ -1,8 +1,11 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class BookStore {
-    HashSet<Book> listOfBooks = new HashSet<>();
+    List<Book> listOfBooks = new ArrayList<>();
 
     public void addBook(Book book) {
         listOfBooks.add(book);
@@ -21,6 +24,14 @@ public class BookStore {
             System.out.println("Книга: " + title + " продана.");
         } else {
             System.out.println("Книги: " + title + " отсутствует.");
+        }
+    }
+
+    public  void editBook(String title, String change) {
+        for (Book b : listOfBooks) {
+            if (b.getBookTitle().equalsIgnoreCase(title)) {
+
+            }
         }
     }
 }
