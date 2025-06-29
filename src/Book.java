@@ -29,6 +29,22 @@ public class Book {
         return releaseData;
     }
 
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
+    }
+
+    public void setBookPrice(int bookPrice) {
+        this.bookPrice = bookPrice;
+    }
+
+    public void setReleaseData(int releaseData) {
+        this.releaseData = releaseData;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
