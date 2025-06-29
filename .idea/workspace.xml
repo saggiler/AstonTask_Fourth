@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91fc78c8-c5ad-4093-a7d0-194ab1e5df93" name="Changes" comment="add method removeBook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

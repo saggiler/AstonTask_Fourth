@@ -30,7 +30,7 @@ public class Book {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        this.bookAuthor = bookAuthor;
     }
 
     public void setBookTitle(String bookTitle) {

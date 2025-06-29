@@ -27,10 +27,14 @@ public class BookStore {
         }
     }
 
-    public  void editBook(String title, String change) {
+    public  void editBook(String title, String newAuthor) {
         for (Book b : listOfBooks) {
             if (b.getBookTitle().equalsIgnoreCase(title)) {
-
+                b.setAuthor(newAuthor);
+                System.out.println("Автор книги \"" + title + "\" изменён на: " + newAuthor);
+                return;
+            } else {
+                System.out.println("Книга с названием \"" + title + "\" не найдена.");
             }
         }
     }
