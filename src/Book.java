@@ -1,8 +1,8 @@
 import java.util.Objects;
 
 public class Book {
-    private String bookTitle;
     private String bookAuthor;
+    private String bookTitle;
     private int bookPrice;
     private int releaseData;
 
