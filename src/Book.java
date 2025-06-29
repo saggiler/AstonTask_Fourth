@@ -1,20 +1,20 @@
 import java.util.Objects;
 
 public class Book {
-    private String author;
+    private String bookAuthor;
     private String bookTitle;
     private int bookPrice;
     private int releaseData;
 
     public Book(String bookTitle, String author, int bookPrice, int releaseData) {
         this.bookTitle = bookTitle;
-        this.author = author;
+        this.bookAuthor = bookAuthor;
         this.bookPrice = bookPrice;
         this.releaseData = releaseData;
     }
 
     public String getAuthor() {
-        return author;
+        return bookAuthor;
     }
 
     public String getBookTitle() {
@@ -30,7 +30,7 @@ public class Book {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        this.bookAuthor = bookAuthor;
     }
 
     public void setBookTitle(String bookTitle) {
