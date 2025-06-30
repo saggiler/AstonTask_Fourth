@@ -1,13 +1,41 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Iterator;
+import java.util.ListIterator;
 
 public class BookStore {
-    HashSet<Book> listOfBooks = new HashSet<>();
+    List<Book> listOfBooks = new ArrayList<>();
 
     public void addBook(Book book) {
         listOfBooks.add(book);
     }
 
+    public void sellBook(String title) {
+        boolean found = false;
+        Iterator<Book> iterator = listOfBooks.iterator();
+        while (iterator.hasNext()) {
+            if (iterator.next().getBookTitle().equalsIgnoreCase(title)) {
+                iterator.remove();
+                found = true;
+            }
+        }
+        if (found) {
+            System.out.println("Книга: " + title + " продана.");
+        } else {
+            System.out.println("Книги: " + title + " отсутствует.");
+        }
+    }
 
-
-
+    public  void editBook(String title, String newAuthor) {
+        for (Book b : listOfBooks) {
+            if (b.getBookTitle().equalsIgnoreCase(title)) {
+                b.setAuthor(newAuthor);
+                System.out.println("Автор книги \"" + title + "\" изменён на: " + newAuthor);
+                return;
+            } else {
+                System.out.println("Книга с названием \"" + title + "\" не найдена.");
+            }
+        }
+    }
 }
